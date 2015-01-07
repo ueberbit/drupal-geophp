@@ -18,7 +18,7 @@ function geophp_load() {
       $already_found = TRUE;
     }
     
-    if (module_exists('libraries')) {
+    if (\Drupal::moduleHandler()->moduleExists('libraries')) {
       $path = libraries_get_path('geoPHP');
       $file = $path . '/geoPHP.inc';
       if (file_exists($file) && $static_cache !== TRUE) {
