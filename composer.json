@@ -1,0 +1,8 @@
+{
+    "name": "drupal/geophp",
+    "description": "D8 Port of geophp module for drupal.",
+    "type": "drupal-module",
+    "license": "GPL-2.0+",
+    "minimum-stability": "dev",
+    "require": { }
+}
