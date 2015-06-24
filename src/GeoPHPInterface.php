@@ -20,4 +20,9 @@ interface GeoPHPInterface {
    */
   public function load();
 
+  /**
+   * @return mixed
+   */
+  public function getAdapterMap();
+
 }

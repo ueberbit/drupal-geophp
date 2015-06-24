@@ -23,4 +23,11 @@ class GeoPHPWrapper implements GeoPHPInterface {
     return call_user_func_array(array('\geoPHP', 'load'), func_get_args());
   }
 
+  /**
+   * {@inheritdoc}
+   */
+  public function getAdapterMap() {
+    return call_user_func_array(array('\geoPHP', 'getAdapterMap'), func_get_args());
+  }
+
 }
